@@ -57,6 +57,7 @@ public class CommandExecutor {
             Booking newBooking = new Booking(this.timeSlot, members);
             String booked = this.scheduler.bookRoom(newBooking);
             System.out.println(booked);
+            return;
         }
     }
 
